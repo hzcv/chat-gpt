@@ -1,18 +1,17 @@
 {
-  "name": "instagram-bot",
-  "version": "1.0.0",
-  "description": "Instagram Group Bot with Multiple Owners",
+  "name": "instagram-auto-bot",
+  "version": "2.0.0",
+  "description": "Instagram Group Chat Auto-Bot",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "pm2-start": "pm2 start bot.js --name insta-bot",
-    "pm2-monit": "pm2 monit"
+    "start": "node bot.js"
   },
   "dependencies": {
     "instagram-private-api": "^1.45.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "delay": "^5.0.0"
   },
   "engines": {
-    "node": ">=14.x"
+    "node": ">=14.0.0"
   }
 }
